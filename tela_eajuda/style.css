@@ -1,0 +1,32 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu ul{
+    list-style: none;
+    padding: 0;
+    background-color: rgb(37, 37, 40);
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .3s;
+}
+
+#menu ul li a:hover{
+    background-color: rgb(24, 139, 233);
+}
+
+#menu ul li:nth-last-child(-n+2) a {
+    float: right;
+
+}
